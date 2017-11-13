@@ -2,11 +2,11 @@ bt.addLevel({
 	controller: bt.CONTROLLER_LITTLE_MAN_COMPUTER, 
 	tank: {
 		x:5, y:5, 
-		name: "You", color:"rgba(0, 255,0,0.8)", 
+		name: "あなた", color:"rgba(0, 255,0,0.8)", 
 		code:""
 		}, 
-	title: "Level 2", 
-	description:"Program the Little Man Computer CPU to destroy the land mines",
+	title: "レベル 2", 
+	description:"Little Man Computer CPUをプログラムして地雷を破壊してください。",
 	tasks:[
 		[7, 5, bt.ITEM_TYPE_MINE, bt.ACTION_DESTROY],
 		[3, 5, bt.ITEM_TYPE_MINE, bt.ACTION_DESTROY],

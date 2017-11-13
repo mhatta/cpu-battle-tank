@@ -3,11 +3,11 @@ bt.addLevel({
 	tank: 
 		{
 			x:5, y:5, 
-			name:"You", color:"rgba(0, 255, 0,0.8)", 
+			name:"あなた", color:"rgba(0, 255, 0,0.8)", 
 			code:"Ly8gZXhhbXBsZSBwcm9ncmFtIHRvIGFkZCB0d28gbnVtYmVycyB0b2dldGhlcg0KDQovLyBpbnN0cnVjdGlvbnM6DQoNCglJTlAgICAgICAgICAvLyBhc2sgZm9yIGEgbnVtYmVyDQoJU1RBIDggICAgICAgLy8gc3RvcmUgaXQgYXQgYWRkcmVzcyA4DQoJSU5QICAgICAgICAgLy8gYXNrIGZvciBhbm90aGVyIG51bWJlcg0KCVNUQSA5ICAgICAgIC8vIHN0b3JlIGl0IGF0IGFkZHJlc3MgOQ0KCUxEQSA4ICAgICAgIC8vIGxvYWQgbnVtYmVyIGZyb20gYWRkcmVzcyA4DQoJQUREIDkgICAgICAgLy8gYWRkIGl0IHRvIGFkZHJlc3MgOQ0KCU9VVCAgICAgICAgIC8vIGRpc3BsYXkgcmVzdWx0DQogICAgSExUICAgICAgICAgLy8gc3RvcCB0aGUgcHJvZ3JhbQ0KICAgIA0KLy8gZGF0YTogICANCg0KICAgIERBVCAwICAgICAgIC8vIHN0b3JlcyBmaXJzdCBudW1iZXINCiAgICBEQVQgMCAgICAgICAvLyBzdG9yZXMgc2Vjb25kIG51bWJlcg=="
 		}, 
-	title: "Practice level", 
-	description: "Use the manual control pad to move the tank to collect the checkpoints.",
+	title: "練習レベル", 
+	description: "手動コントロールパッドを使って戦車を動かし、チェックポイントを集めてください。",
 		
 	tasks:[
 		[5,1, bt.ITEM_TYPE_CHECKPOINT, bt.ACTION_COLLECT],
